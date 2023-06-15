@@ -1,0 +1,115 @@
+[
+    {
+      "productName": "iPhone 13",
+      "amount": 10,
+      "price": 1099.99,
+      "discount": 0.1,
+      "color": "Silver"
+    },
+    {
+      "productName": "Samsung Galaxy S21",
+      "amount": 5,
+      "price": 899.99,
+      "discount": 0.15,
+      "color": "Black"
+    },
+    {
+      "productName": "MacBook Pro",
+      "amount": 3,
+      "price": 1999.99,
+      "discount": 0.05,
+      "color": "Space Gray"
+    },
+    {
+      "productName": "Dell XPS 15",
+      "amount": 8,
+      "price": 1499.99,
+      "discount": 0.1,
+      "color": "Silver"
+    },
+    {
+      "productName": "Sony PlayStation 5",
+      "amount": 2,
+      "price": 499.99,
+      "discount": 0,
+      "color": "White"
+    },
+    {
+      "productName": "Nintendo Switch",
+      "amount": 6,
+      "price": 299.99,
+      "discount": 0.2,
+      "color": "Red/Blue"
+    },
+    {
+      "productName": "LG OLED TV",
+      "amount": 4,
+      "price": 1499.99,
+      "discount": 0.1,
+      "color": "Black"
+    },
+    {
+      "productName": "Bose QuietComfort 35 II",
+      "amount": 7,
+      "price": 299.99,
+      "discount": 0.15,
+      "color": "Silver"
+    },
+    {
+      "productName": "Fitbit Charge 4",
+      "amount": 9,
+      "price": 129.99,
+      "discount": 0.05,
+      "color": "Black"
+    },
+    {
+      "productName": "Canon EOS Rebel T7i",
+      "amount": 3,
+      "price": 699.99,
+      "discount": 0.1,
+      "color": "Black"
+    },
+    {
+      "productName": "Apple AirPods Pro",
+      "amount": 6,
+      "price": 249.99,
+      "discount": 0,
+      "color": "White"
+    },
+    {
+      "productName": "Samsung 4K UHD Smart TV",
+      "amount": 5,
+      "price": 799.99,
+      "discount": 0.1,
+      "color": "Black"
+    },
+    {
+      "productName": "Nikon D5600",
+      "amount": 2,
+      "price": 699.99,
+      "discount": 0.05,
+      "color": "Black"
+    },
+    {
+      "productName": "HP Pavilion Gaming Laptop",
+      "amount": 4,
+      "price": 899.99,
+      "discount": 0.2,
+      "color": "Shadow Black"
+    },
+    {
+      "productName": "Microsoft Xbox Series X",
+      "amount": 1,
+      "price": 499.99,
+      "discount": 0,
+      "color": "Black"
+    },
+    {
+      "productName": "Google Pixel 6",
+      "amount": 3,
+      "price": 799.99,
+      "discount": 0.1,
+      "color": "Just Black"
+    }
+  ]
+  

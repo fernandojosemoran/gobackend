@@ -1,0 +1,7 @@
+dockerfile
+docker-compose.yml
+alternativa
+README.md
+go.sum
+.gitignore
+.air.toml

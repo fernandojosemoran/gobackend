@@ -1,0 +1,29 @@
+version: "3.8"
+services:
+
+  gobackend:
+    build: "."
+    ports:
+      - "8080:8080"
+    networks:
+      - gobackendNetwork
+
+  postgresDB:
+    image: "postgres"
+    restart: always
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_PASSWORD: golansito
+      POSTGRES_USER: golang
+      POSTGRES_DB: commerce
+    networks:
+      - gobackendNetwork
+    volumes:
+      - postgres_data: /var/lib/postgresql/data
+
+networks:
+  gobackendNetwork:
+
+
+volumes: postgres_data
