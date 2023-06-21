@@ -2,11 +2,15 @@ version: "3.8"
 services:
 
   gobackend:
-    build: "."
+    build: 
+      context: "."
+      dockerfile: dockerfile
     ports:
       - "8080:8080"
     networks:
       - gobackendNetwork
+    depends_on:
+      - postgresDB
 
   postgresDB:
     image: "postgres"

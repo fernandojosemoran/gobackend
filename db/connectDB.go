@@ -2,9 +2,9 @@ package db
 
 import (
 	"fmt"
-	"log"
 	"os"
 
+	"github.com/fernandomoranarita/Gobackend/helpers"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
@@ -23,14 +23,7 @@ func DbConnection() {
 
 	var DSN string = fmt.Sprintf("host=%s user=%s password=%s dbname=%s port=%s", host, user, password, dbname, port)
 
-	err := recover()
-	db, err = gorm.Open(postgres.Open(DSN), &gorm.Config{})
+	_, err := gorm.Open(postgres.Open(DSN), &gorm.Config{})
 
-	if err != nil {
-		log.Fatal("\nERROR DATABASE NOT CONNECTED\n", err)
-	}
-
-	if err == nil {
-		log.Printf("\nDATABASE CONNECTED SUCESSFULLY\n")
-	}
+	helpers.LogFatalHandler("ERROR DATABASE NOT CONNECTED", err)
 }

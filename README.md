@@ -1,22 +1,33 @@
 # GoBackend
-It's a backend made in go for personal use that contented routers, where you can do operations with methods GET, POST, PUT, DELETE
+IIt's a backend made in Go for personal use that includes routers, allowing you to perform operations using the GET, POST, PUT, and DELETE methods.
 
-## How Run The App
+## How Run GoBackend
+
+You need install docker in your operative system.
+
+### Docker Install Guide
+
+1. [Linux](https://docs.docker.com/desktop/install/linux-install/)
+2. [Mac](https://docs.docker.com/desktop/install/mac-install/)
+3. [Windows](https://docs.docker.com/desktop/install/windows-install/)
+
+After you will need to run the follow command.
 
 ```bash
-
-    docker run dockerfile
-    docker-compose
-
+    docker-compose up
 ```
 
 ## Technologies
 
 - go
+- Postgres SQL
 
-## External Packages 
+## Go External Packages 
 
-- [github.com/gorilla/mux](github.com/gorilla/mux)
-- [https://gorm.io/](https://gorm.io/)
-- [github.com/joho/godotenv](github.com/joho/godotenv)
+- [gorilla/mux](github.com/gorilla/mux)
+- [gorm](https://gorm.io/)
+- [godotenv](github.com/joho/godotenv)
+- [cors]("github.com/rs/cors")
+
+## Routes
 
